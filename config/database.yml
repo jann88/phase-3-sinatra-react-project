@@ -5,3 +5,16 @@ development:
 production:
   adapter: postgresql
   database: db/production.sqlite3
+  Host: ec2-35-170-146-54.compute-1.amazonaws.com
+  database: dcc1vqlvsihp9u
+  User: zhumwobylbkfbe
+  Port: 5432
+  Password: e6352fffd8d9c5a4ffcca16e97855cd009eabfc95b06f681be79afa098d659ed
+
+
+
+
+
+
+
+

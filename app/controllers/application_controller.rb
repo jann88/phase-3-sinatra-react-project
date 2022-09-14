@@ -50,6 +50,11 @@ class ApplicationController < Sinatra::Base
       user.to_json
     end
     
+    #get all merchants
+    get "/merchants" do
+      merchants = Merchant.all
+      merchants.to_json
+    end
     #post
     post "/carts" do
       product = Cart.create(
@@ -95,4 +100,4 @@ class ApplicationController < Sinatra::Base
     end
 end
 
-end
+
