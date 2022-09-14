@@ -73,19 +73,19 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  activerecord (~> 6.1)
+  activerecord
   faker
   pg
-  pry (~> 0.14.1)
+  pry
   psych
-  rack-contrib (~> 2.3)
-  rack-cors (~> 1.1)
+  rack-contrib
+  rack-cors
   rake
-  require_all (~> 3.0)
+  require_all
   rerun
-  sinatra (~> 2.1)
-  sinatra-activerecord (~> 2.0)
-  thin (~> 1.8)
+  sinatra
+  sinatra-activerecord
+  thin
   uri
 
 BUNDLED WITH
