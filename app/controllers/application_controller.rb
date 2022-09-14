@@ -1,7 +1,5 @@
 class ApplicationController < Sinatra::Base
-  set :default_content_type, 'application/json'
-  
-  class ApplicationController < Sinatra::Base
+    set :database_file, "./config/database.yml"
     set :default_content_type, "application/json"
     # specialization :allow_methods, "GET, HEAD, POST, PUT, OPTIONS, DELETE"
     # set :allow_origin, "http:/localhost:3000"
