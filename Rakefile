@@ -1,4 +1,3 @@
-require "/sinata/activerecord"
 require_relative "./config/environment"
 require "sinatra/activerecord/rake"
 
