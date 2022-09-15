@@ -13,6 +13,8 @@ Install by cloning the github repository.
 
 Live Link
 Click this link to view the live application https://online-mart-lqkzlfw9v-jann88.vercel.app/
+Backend repository
+https://github.com/jann88/phase-3-sinatra-react-project
 Technology Used
 HTML 
 CSS 
